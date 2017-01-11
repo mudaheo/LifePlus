@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		57BE427A1E251E2600FBE032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE42791E251E2600FBE032 /* AppDelegate.swift */; };
 		57BE427C1E251E2600FBE032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE427B1E251E2600FBE032 /* ViewController.swift */; };
 		57BE427F1E251E2600FBE032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BE427D1E251E2600FBE032 /* Main.storyboard */; };
@@ -20,6 +21,29 @@
 		FE6646681E25CB4500D6FA12 /* LifePlusAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646621E25CB4500D6FA12 /* LifePlusAlertViewController.swift */; };
 		FE6646691E25CB4500D6FA12 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = FE6646631E25CB4500D6FA12 /* Script.sh */; };
 		FE66466A1E25CB4500D6FA12 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646641E25CB4500D6FA12 /* Utilities.swift */; };
+		FE66466E1E25CC8200D6FA12 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66466D1E25CC8200D6FA12 /* Login.storyboard */; };
+		FE6646701E25D1F000D6FA12 /* NoConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66466F1E25D1F000D6FA12 /* NoConnectionViewController.swift */; };
+		FE6646791E25D2D300D6FA12 /* ChooseBrandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646711E25D2D300D6FA12 /* ChooseBrandTableViewCell.swift */; };
+		FE66467A1E25D2D300D6FA12 /* ChooseBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646721E25D2D300D6FA12 /* ChooseBrandViewController.swift */; };
+		FE66467B1E25D2D300D6FA12 /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646731E25D2D300D6FA12 /* ConfirmSignUpViewController.swift */; };
+		FE66467C1E25D2D300D6FA12 /* ConfirmSMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646741E25D2D300D6FA12 /* ConfirmSMSViewController.swift */; };
+		FE66467D1E25D2D300D6FA12 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646751E25D2D300D6FA12 /* ForgotPassViewController.swift */; };
+		FE66467E1E25D2D300D6FA12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646761E25D2D300D6FA12 /* LoginViewController.swift */; };
+		FE66467F1E25D2D300D6FA12 /* RegisterCloseCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646771E25D2D300D6FA12 /* RegisterCloseCustomerViewController.swift */; };
+		FE6646801E25D2D300D6FA12 /* SignUpAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646781E25D2D300D6FA12 /* SignUpAccountViewController.swift */; };
+		FE6646861E25D41A00D6FA12 /* LifePlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE6646841E25D41A00D6FA12 /* LifePlus.xcdatamodeld */; };
+		FE6646931E25D95500D6FA12 /* Merchant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646871E25D95500D6FA12 /* Merchant+CoreDataClass.swift */; };
+		FE6646941E25D95500D6FA12 /* Merchant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646881E25D95500D6FA12 /* Merchant+CoreDataProperties.swift */; };
+		FE6646951E25D95500D6FA12 /* Branch+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646891E25D95500D6FA12 /* Branch+CoreDataClass.swift */; };
+		FE6646961E25D95500D6FA12 /* Branch+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66468A1E25D95500D6FA12 /* Branch+CoreDataProperties.swift */; };
+		FE6646971E25D95500D6FA12 /* MemberType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66468B1E25D95500D6FA12 /* MemberType+CoreDataClass.swift */; };
+		FE6646981E25D95500D6FA12 /* MemberType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66468C1E25D95500D6FA12 /* MemberType+CoreDataProperties.swift */; };
+		FE6646991E25D95500D6FA12 /* Gift+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66468D1E25D95500D6FA12 /* Gift+CoreDataClass.swift */; };
+		FE66469A1E25D95500D6FA12 /* Gift+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66468E1E25D95500D6FA12 /* Gift+CoreDataProperties.swift */; };
+		FE66469B1E25D95500D6FA12 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66468F1E25D95500D6FA12 /* User+CoreDataClass.swift */; };
+		FE66469C1E25D95500D6FA12 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646901E25D95500D6FA12 /* User+CoreDataProperties.swift */; };
+		FE66469D1E25D95500D6FA12 /* Campaign+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646911E25D95500D6FA12 /* Campaign+CoreDataClass.swift */; };
+		FE66469E1E25D95500D6FA12 /* Campaign+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646921E25D95500D6FA12 /* Campaign+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +83,29 @@
 		FE6646621E25CB4500D6FA12 /* LifePlusAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifePlusAlertViewController.swift; sourceTree = "<group>"; };
 		FE6646631E25CB4500D6FA12 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 		FE6646641E25CB4500D6FA12 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FE66466D1E25CC8200D6FA12 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Login/Login.storyboard; sourceTree = "<group>"; };
+		FE66466F1E25D1F000D6FA12 /* NoConnectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoConnectionViewController.swift; sourceTree = "<group>"; };
+		FE6646711E25D2D300D6FA12 /* ChooseBrandTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseBrandTableViewCell.swift; path = Login/ChooseBrandTableViewCell.swift; sourceTree = "<group>"; };
+		FE6646721E25D2D300D6FA12 /* ChooseBrandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChooseBrandViewController.swift; path = Login/ChooseBrandViewController.swift; sourceTree = "<group>"; };
+		FE6646731E25D2D300D6FA12 /* ConfirmSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmSignUpViewController.swift; path = Login/ConfirmSignUpViewController.swift; sourceTree = "<group>"; };
+		FE6646741E25D2D300D6FA12 /* ConfirmSMSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmSMSViewController.swift; path = Login/ConfirmSMSViewController.swift; sourceTree = "<group>"; };
+		FE6646751E25D2D300D6FA12 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPassViewController.swift; path = Login/ForgotPassViewController.swift; sourceTree = "<group>"; };
+		FE6646761E25D2D300D6FA12 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Login/LoginViewController.swift; sourceTree = "<group>"; };
+		FE6646771E25D2D300D6FA12 /* RegisterCloseCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterCloseCustomerViewController.swift; path = Login/RegisterCloseCustomerViewController.swift; sourceTree = "<group>"; };
+		FE6646781E25D2D300D6FA12 /* SignUpAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpAccountViewController.swift; path = Login/SignUpAccountViewController.swift; sourceTree = "<group>"; };
+		FE6646851E25D41A00D6FA12 /* LifePlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifePlus.xcdatamodel; sourceTree = "<group>"; };
+		FE6646871E25D95500D6FA12 /* Merchant+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Merchant+CoreDataClass.swift"; path = "LifePlus/CoreData Model/Merchant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE6646881E25D95500D6FA12 /* Merchant+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Merchant+CoreDataProperties.swift"; path = "LifePlus/CoreData Model/Merchant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FE6646891E25D95500D6FA12 /* Branch+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Branch+CoreDataClass.swift"; path = "LifePlus/CoreData Model/Branch+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE66468A1E25D95500D6FA12 /* Branch+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Branch+CoreDataProperties.swift"; path = "LifePlus/CoreData Model/Branch+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FE66468B1E25D95500D6FA12 /* MemberType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MemberType+CoreDataClass.swift"; path = "LifePlus/CoreData Model/MemberType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE66468C1E25D95500D6FA12 /* MemberType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MemberType+CoreDataProperties.swift"; path = "LifePlus/CoreData Model/MemberType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FE66468D1E25D95500D6FA12 /* Gift+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Gift+CoreDataClass.swift"; path = "LifePlus/CoreData Model/Gift+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE66468E1E25D95500D6FA12 /* Gift+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Gift+CoreDataProperties.swift"; path = "LifePlus/CoreData Model/Gift+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FE66468F1E25D95500D6FA12 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "LifePlus/CoreData Model/User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE6646901E25D95500D6FA12 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "LifePlus/CoreData Model/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FE6646911E25D95500D6FA12 /* Campaign+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Campaign+CoreDataClass.swift"; path = "LifePlus/CoreData Model/Campaign+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE6646921E25D95500D6FA12 /* Campaign+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Campaign+CoreDataProperties.swift"; path = "LifePlus/CoreData Model/Campaign+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +156,7 @@
 		57BE42781E251E2600FBE032 /* LifePlus */ = {
 			isa = PBXGroup;
 			children = (
+				FE66469F1E25D96200D6FA12 /* Model */,
 				FE66466C1E25CBBD00D6FA12 /* Campaign */,
 				FE66466B1E25CBB600D6FA12 /* Login */,
 				FE6646521E25C9A100D6FA12 /* Support */,
@@ -118,6 +166,7 @@
 				57BE42801E251E2600FBE032 /* Assets.xcassets */,
 				57BE42821E251E2600FBE032 /* LaunchScreen.storyboard */,
 				57BE42851E251E2600FBE032 /* Info.plist */,
+				FE6646841E25D41A00D6FA12 /* LifePlus.xcdatamodeld */,
 			);
 			path = LifePlus;
 			sourceTree = "<group>";
@@ -143,6 +192,7 @@
 		FE6646521E25C9A100D6FA12 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				FE66466F1E25D1F000D6FA12 /* NoConnectionViewController.swift */,
 				FE66465F1E25CB4500D6FA12 /* CoreAPI.swift */,
 				FE6646601E25CB4500D6FA12 /* CoreDataStack.swift */,
 				FE6646611E25CB4500D6FA12 /* LifePlusActivityIndicator.swift */,
@@ -156,6 +206,15 @@
 		FE66466B1E25CBB600D6FA12 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				FE6646711E25D2D300D6FA12 /* ChooseBrandTableViewCell.swift */,
+				FE6646721E25D2D300D6FA12 /* ChooseBrandViewController.swift */,
+				FE6646731E25D2D300D6FA12 /* ConfirmSignUpViewController.swift */,
+				FE6646741E25D2D300D6FA12 /* ConfirmSMSViewController.swift */,
+				FE6646751E25D2D300D6FA12 /* ForgotPassViewController.swift */,
+				FE6646761E25D2D300D6FA12 /* LoginViewController.swift */,
+				FE6646771E25D2D300D6FA12 /* RegisterCloseCustomerViewController.swift */,
+				FE6646781E25D2D300D6FA12 /* SignUpAccountViewController.swift */,
+				FE66466D1E25CC8200D6FA12 /* Login.storyboard */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -165,6 +224,26 @@
 			children = (
 			);
 			name = Campaign;
+			sourceTree = "<group>";
+		};
+		FE66469F1E25D96200D6FA12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE6646871E25D95500D6FA12 /* Merchant+CoreDataClass.swift */,
+				FE6646881E25D95500D6FA12 /* Merchant+CoreDataProperties.swift */,
+				FE6646891E25D95500D6FA12 /* Branch+CoreDataClass.swift */,
+				FE66468A1E25D95500D6FA12 /* Branch+CoreDataProperties.swift */,
+				FE66468B1E25D95500D6FA12 /* MemberType+CoreDataClass.swift */,
+				FE66468C1E25D95500D6FA12 /* MemberType+CoreDataProperties.swift */,
+				FE66468D1E25D95500D6FA12 /* Gift+CoreDataClass.swift */,
+				FE66468E1E25D95500D6FA12 /* Gift+CoreDataProperties.swift */,
+				FE66468F1E25D95500D6FA12 /* User+CoreDataClass.swift */,
+				FE6646901E25D95500D6FA12 /* User+CoreDataProperties.swift */,
+				FE6646911E25D95500D6FA12 /* Campaign+CoreDataClass.swift */,
+				FE6646921E25D95500D6FA12 /* Campaign+CoreDataProperties.swift */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +359,7 @@
 				57BE42841E251E2600FBE032 /* LaunchScreen.storyboard in Resources */,
 				57BE42811E251E2600FBE032 /* Assets.xcassets in Resources */,
 				57BE427F1E251E2600FBE032 /* Main.storyboard in Resources */,
+				FE66466E1E25CC8200D6FA12 /* Login.storyboard in Resources */,
 				FE6646691E25CB4500D6FA12 /* Script.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,13 +385,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE66467E1E25D2D300D6FA12 /* LoginViewController.swift in Sources */,
+				FE6646971E25D95500D6FA12 /* MemberType+CoreDataClass.swift in Sources */,
+				FE66467F1E25D2D300D6FA12 /* RegisterCloseCustomerViewController.swift in Sources */,
+				FE66469D1E25D95500D6FA12 /* Campaign+CoreDataClass.swift in Sources */,
 				FE6646651E25CB4500D6FA12 /* CoreAPI.swift in Sources */,
+				FE6646791E25D2D300D6FA12 /* ChooseBrandTableViewCell.swift in Sources */,
+				FE66467B1E25D2D300D6FA12 /* ConfirmSignUpViewController.swift in Sources */,
 				FE6646681E25CB4500D6FA12 /* LifePlusAlertViewController.swift in Sources */,
 				FE66466A1E25CB4500D6FA12 /* Utilities.swift in Sources */,
+				FE6646951E25D95500D6FA12 /* Branch+CoreDataClass.swift in Sources */,
+				FE66469E1E25D95500D6FA12 /* Campaign+CoreDataProperties.swift in Sources */,
+				FE6646991E25D95500D6FA12 /* Gift+CoreDataClass.swift in Sources */,
+				FE6646961E25D95500D6FA12 /* Branch+CoreDataProperties.swift in Sources */,
 				57BE427C1E251E2600FBE032 /* ViewController.swift in Sources */,
+				FE6646861E25D41A00D6FA12 /* LifePlus.xcdatamodeld in Sources */,
 				57BE427A1E251E2600FBE032 /* AppDelegate.swift in Sources */,
 				FE6646661E25CB4500D6FA12 /* CoreDataStack.swift in Sources */,
+				FE66469A1E25D95500D6FA12 /* Gift+CoreDataProperties.swift in Sources */,
+				FE66469B1E25D95500D6FA12 /* User+CoreDataClass.swift in Sources */,
+				FE66469C1E25D95500D6FA12 /* User+CoreDataProperties.swift in Sources */,
+				FE6646801E25D2D300D6FA12 /* SignUpAccountViewController.swift in Sources */,
+				FE66467D1E25D2D300D6FA12 /* ForgotPassViewController.swift in Sources */,
+				FE6646701E25D1F000D6FA12 /* NoConnectionViewController.swift in Sources */,
+				FE66467C1E25D2D300D6FA12 /* ConfirmSMSViewController.swift in Sources */,
+				FE6646931E25D95500D6FA12 /* Merchant+CoreDataClass.swift in Sources */,
+				FE6646981E25D95500D6FA12 /* MemberType+CoreDataProperties.swift in Sources */,
 				FE6646671E25CB4500D6FA12 /* LifePlusActivityIndicator.swift in Sources */,
+				FE66467A1E25D2D300D6FA12 /* ChooseBrandViewController.swift in Sources */,
+				FE6646941E25D95500D6FA12 /* Merchant+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +683,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE6646841E25D41A00D6FA12 /* LifePlus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE6646851E25D41A00D6FA12 /* LifePlus.xcdatamodel */,
+			);
+			currentVersion = FE6646851E25D41A00D6FA12 /* LifePlus.xcdatamodel */;
+			path = LifePlus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 57BE426E1E251E2500FBE032 /* Project object */;
 }
