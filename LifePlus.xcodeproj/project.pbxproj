@@ -14,6 +14,12 @@
 		57BE42841E251E2600FBE032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BE42821E251E2600FBE032 /* LaunchScreen.storyboard */; };
 		57BE428F1E251E2600FBE032 /* LifePlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE428E1E251E2600FBE032 /* LifePlusTests.swift */; };
 		57BE429A1E251E2600FBE032 /* LifePlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE42991E251E2600FBE032 /* LifePlusUITests.swift */; };
+		FE6646651E25CB4500D6FA12 /* CoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE66465F1E25CB4500D6FA12 /* CoreAPI.swift */; };
+		FE6646661E25CB4500D6FA12 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646601E25CB4500D6FA12 /* CoreDataStack.swift */; };
+		FE6646671E25CB4500D6FA12 /* LifePlusActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646611E25CB4500D6FA12 /* LifePlusActivityIndicator.swift */; };
+		FE6646681E25CB4500D6FA12 /* LifePlusAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646621E25CB4500D6FA12 /* LifePlusAlertViewController.swift */; };
+		FE6646691E25CB4500D6FA12 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = FE6646631E25CB4500D6FA12 /* Script.sh */; };
+		FE66466A1E25CB4500D6FA12 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6646641E25CB4500D6FA12 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		57BE42951E251E2600FBE032 /* LifePlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifePlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BE42991E251E2600FBE032 /* LifePlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePlusUITests.swift; sourceTree = "<group>"; };
 		57BE429B1E251E2600FBE032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE66465F1E25CB4500D6FA12 /* CoreAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreAPI.swift; sourceTree = "<group>"; };
+		FE6646601E25CB4500D6FA12 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FE6646611E25CB4500D6FA12 /* LifePlusActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifePlusActivityIndicator.swift; sourceTree = "<group>"; };
+		FE6646621E25CB4500D6FA12 /* LifePlusAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifePlusAlertViewController.swift; sourceTree = "<group>"; };
+		FE6646631E25CB4500D6FA12 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
+		FE6646641E25CB4500D6FA12 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,9 @@
 		57BE42781E251E2600FBE032 /* LifePlus */ = {
 			isa = PBXGroup;
 			children = (
+				FE66466C1E25CBBD00D6FA12 /* Campaign */,
+				FE66466B1E25CBB600D6FA12 /* Login */,
+				FE6646521E25C9A100D6FA12 /* Support */,
 				57BE42791E251E2600FBE032 /* AppDelegate.swift */,
 				57BE427B1E251E2600FBE032 /* ViewController.swift */,
 				57BE427D1E251E2600FBE032 /* Main.storyboard */,
@@ -123,6 +138,33 @@
 				57BE429B1E251E2600FBE032 /* Info.plist */,
 			);
 			path = LifePlusUITests;
+			sourceTree = "<group>";
+		};
+		FE6646521E25C9A100D6FA12 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FE66465F1E25CB4500D6FA12 /* CoreAPI.swift */,
+				FE6646601E25CB4500D6FA12 /* CoreDataStack.swift */,
+				FE6646611E25CB4500D6FA12 /* LifePlusActivityIndicator.swift */,
+				FE6646621E25CB4500D6FA12 /* LifePlusAlertViewController.swift */,
+				FE6646631E25CB4500D6FA12 /* Script.sh */,
+				FE6646641E25CB4500D6FA12 /* Utilities.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		FE66466B1E25CBB600D6FA12 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FE66466C1E25CBBD00D6FA12 /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Campaign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +280,7 @@
 				57BE42841E251E2600FBE032 /* LaunchScreen.storyboard in Resources */,
 				57BE42811E251E2600FBE032 /* Assets.xcassets in Resources */,
 				57BE427F1E251E2600FBE032 /* Main.storyboard in Resources */,
+				FE6646691E25CB4500D6FA12 /* Script.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6646651E25CB4500D6FA12 /* CoreAPI.swift in Sources */,
+				FE6646681E25CB4500D6FA12 /* LifePlusAlertViewController.swift in Sources */,
+				FE66466A1E25CB4500D6FA12 /* Utilities.swift in Sources */,
 				57BE427C1E251E2600FBE032 /* ViewController.swift in Sources */,
 				57BE427A1E251E2600FBE032 /* AppDelegate.swift in Sources */,
+				FE6646661E25CB4500D6FA12 /* CoreDataStack.swift in Sources */,
+				FE6646671E25CB4500D6FA12 /* LifePlusActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +560,7 @@
 				57BE42A01E251E2600FBE032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BE42A11E251E2600FBE032 /* Build configuration list for PBXNativeTarget "LifePlusTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +569,7 @@
 				57BE42A31E251E2600FBE032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BE42A41E251E2600FBE032 /* Build configuration list for PBXNativeTarget "LifePlusUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +578,7 @@
 				57BE42A61E251E2600FBE032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
