@@ -92,20 +92,25 @@ class ConfirmSMSViewController: UIViewController {
     }
     
     func loadingIndicatorView(message: String) {
-        loadingView = UIView(frame: CGRect(origin: CGPoint(x: 30, y: self.view.frame.size.height/2 - 25), size: CGSize(width: self.view.frame.width - 60, height: 50)))
-        loadingView.backgroundColor = UIColor.white
+        loadingView = UIView(frame: self.view.frame)
+        loadingView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.5)
         
-        let indicatorView = LifePlusActivityIndicator(image: UIImage.init(named: "activity_indicator")!, frame: CGRect(origin: CGPoint(x: 0,y: 0), size: CGSize(width: 50, height: 50)))
-        let messageLabel = UILabel(frame: CGRect(origin: CGPoint(x: 60,y: 0), size: CGSize(width: loadingView.frame.size.width - 60, height: 50)))
+        let contentView: UIView = UIView(frame: CGRect(origin: CGPoint(x: 30, y: self.view.frame.size.height/2 - 25), size: CGSize(width: self.view.frame.width - 60, height: 50)))
+        contentView.backgroundColor = UIColor.white
+        
+        let indicatorView = LifePlusActivityIndicator(image: UIImage.init(named: "activity_indicator")!, frame: CGRect(origin: CGPoint(x: 10,y: 10), size: CGSize(width: 30, height: 30)))
+        let messageLabel = UILabel(frame: CGRect(origin: CGPoint(x: 50,y: 0), size: CGSize(width: loadingView.frame.size.width - 60, height: 50)))
         indicatorView.startAnimating()
         messageLabel.text = message
+        messageLabel.font = UIFont.systemFont(ofSize: 12)
         messageLabel.textAlignment = NSTextAlignment.left
-        loadingView.addSubview(indicatorView)
-        loadingView.addSubview(messageLabel)
-        loadingView.layer.cornerRadius = 5.0
-        loadingView.clipsToBounds = true
-        // loadingView.layer.borderColor = UIColor.greenLifePlus.cgColor
-        //loadingView.layer.borderWidth = 0.5
+        contentView.addSubview(indicatorView)
+        contentView.addSubview(messageLabel)
+        contentView.layer.cornerRadius = 5.0
+        contentView.clipsToBounds = true
+        
+        loadingView.addSubview(contentView)
+        
         self.view.addSubview(loadingView)
         
     }
